@@ -1,0 +1,77 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+/* share style start */
+.content-space{
+    max-width: 1140px;
+    border: 2px solid red;
+    margin: 0px auto;
+}
+/* share style end */
+
+/*  nav bar start  */
+#nav-banner-background-img{ 
+    background-image: url('./Assets/Hero-bg.png');
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+}
+.nav-bar h2{
+    color: rgb(78, 71, 255);
+font-family: "Inter", sans-serif;
+font-size: 34px;
+font-weight: 900;
+}
+.nav-bar button{
+    color: rgb(255, 255, 255);
+font-family: "Raleway", sans-serif;
+font-size: 16px;
+font-weight: 700;
+border-radius: 10px;
+background: rgb(78, 71, 255);
+padding: 12px 36px;
+border: none;
+}
+/* nav bar end  */
+/* banner start */
+.banner{
+    border: 2px solid red;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 950px;
+    margin: 0 auto;
+}
+.banner-text{
+    border: 2px solid green;
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-text h1{
+
+    color: rgb(37, 36, 50);
+font-family: "Raleway", sans-serif;
+font-size: 50px;
+font-weight: 700;
+}
+.banner-text button{
+    color: rgb(255, 255, 255);
+font-family: "Raleway", sans-serif;
+font-size: 16px;
+font-weight: 700;
+border-radius: 10px;
+background: rgb(78, 71, 255);
+padding: 12px 36px;
+border: none;
+margin-top: 20px;
+}
+/* banner end */
