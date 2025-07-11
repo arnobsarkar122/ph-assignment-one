@@ -15,7 +15,9 @@
 
 /*  nav bar start  */
 #nav-banner-background-img{ 
-    background-image: url('./Assets/Hero-bg.png');
+    background-image: url('./Assets/Hero-bg.png'); 
+   background-position: center;
+   background-repeat: no-repeat;
 }
 .nav-bar{
     display:flex;
@@ -75,3 +77,49 @@ border: none;
 margin-top: 20px;
 }
 /* banner end */
+/* action section start */
+.action-content{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+.action-text{
+    border: 2px solid purple; 
+    width: 517px;
+}
+.action-text h2{
+    color: rgb(37, 36, 50);
+font-family: "Raleway", sans-serif;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+}
+.action-text p{
+    color: rgba(37, 36, 50, 0.5);
+ font-family: "Raleway", sans-serif;
+font-size: 24px;
+font-weight: 400;
+width: 90%;
+padding: 15px 0;
+}
+.action-text button{
+border-radius: 10px;
+background: rgb(78, 71, 255);
+padding: 12px 36px;
+color: rgb(255, 255, 255);
+font-family: "Raleway", sans-serif;
+font-size: 16px;
+font-weight: 700;
+border: none;
+}
+.action-img{
+    border: 2px solid aqua;
+    width: 403px;
+}
+.action-img img{
+    width: 100%;
+    border-radius: 48px;
+}
+/* action section end */
