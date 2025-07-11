@@ -164,3 +164,84 @@ text-align: center;
 
 }
 /* Productive section end */
+/* Review section start */
+
+/* Review section end */
+/* focus section start */
+
+/* focus section end */
+/* form section start */
+.form-content{
+    border: 2px solid red;
+    display: flex;
+    padding: 60px 0;
+    height: 400px;
+    align-items: center;
+    margin: 50px 0;
+}
+.form-text{
+    border: 2px solid yellow;
+    width: 50%;
+}
+.form-text h2{
+    color: rgb(0, 0, 0);
+font-family: "Raleway", sans-serif;
+font-size: 77px;
+font-weight: 700;
+line-height: 120%;
+}
+.form-input{
+    border: 2px solid orange;
+    width: 50%;
+}
+.input-box{
+    border: 2px solid black;
+}
+.input-box label{
+color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+
+
+}
+.input-box input{
+ padding: 20px 32px;
+border: 1px solid rgb(214, 221, 237);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 150%;
+width: 497px;
+margin: 7px 0;
+}
+.input-box textarea{
+    width:93%;
+height: 135px;
+padding: 20px 20px;
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 150%;
+margin-top: 7px;
+}
+.form-input button{
+    border-radius: 10px;
+background: rgb(78, 71, 255);
+padding: 19px 90px;
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+width: 100%;
+margin-top: 15px;
+}
+/* form section end */
